@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg,#20d6fa, #4076c7);
+
+
+
+}
+
+.card1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    height: 50%;
+    width: 350px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 10px 0px 0px 10px;
+    color: aliceblue;
+}
+
+.card2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #1d8fe0;
+    height: 50%;
+    width: 350px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+input {
+    margin: 5px;
+    padding: 8px;
+    background-color: #ededed;
+}
+
+#ff {
+    padding-bottom: 10px;
+
+}
+
+#ff a {
+    text-decoration: none;
+    color: #60a1e6;
+}
+
+#dd {
+    color: #60a1e6;
+}
+
+h1 {
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    border-radius: 5px;
+    padding: 5px 50px 5px 50px;
+    background-color: #1d8fe0;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn a img {
+    width: 25px;
+    height: 25px;
+    margin: 5px 5px 0px 0px;
+}
+
+.card2 {
+    color: white;
+}
+
+.div2 {
+    color: white;
+}
